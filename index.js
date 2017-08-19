@@ -3,11 +3,11 @@ const aa = require('./apiCalls');
 
 const options = {
     method: 'POST',
-    uri: 'https://qa4-rc.aprimo.com/api/oauth/create-native-token',
+    uri: 'url',
     headers: {
         'content-type': 'application/json',
-        'client-id': 'L4AIEHMR-FJSP',
-        'Authorization': 'Basic YWRtaW46ZDAzMTQ0MDRiNjIyNDRlOWJmZWFkZWJhOTY1ZTU4NDc='
+        'client-id': 'clientid',
+        'Authorization': 'auth'
     },
     json: true
 };
