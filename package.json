@@ -1,0 +1,36 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node jwtutility.js",
+    "profile": "node --prof jwtutility.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fawad-aziz/nodejs.git"
+  },
+  "author": "Fawad Aziz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fawad-aziz/nodejs/issues"
+  },
+  "homepage": "https://github.com/fawad-aziz/nodejs#readme",
+  "dependencies": {
+    "adal-node": "^0.1.25",
+    "azure-arm-compute": "^4.0.0",
+    "azure-arm-dns": "^2.0.0-preview",
+    "bluebird": "^3.5.0",
+    "json-web-token": "^2.1.3",
+    "lodash": "^4.17.4",
+    "moment": "^2.19.1",
+    "ms-rest-azure": "^2.4.5",
+    "mssql": "^3.0.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.1",
+    "shuffle-array": "^1.0.1",
+    "xmlbuilder": "^9.0.4"
+  }
+}
